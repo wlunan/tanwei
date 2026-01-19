@@ -42,6 +42,8 @@ public class VoucherController {
     @PostMapping("seckill")
     public Result addSeckillVoucher(@RequestBody Voucher voucher) {
         voucherService.addSeckillVoucher(voucher);
+        System.out.println(voucher.getEndTime());
+        System.out.println(voucher.toString());
         return Result.ok(voucher.getId());
     }
 
