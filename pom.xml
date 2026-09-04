@@ -8,11 +8,11 @@
         <version>2.3.12.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.hmdp</groupId>
-    <artifactId>hm-dianping</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>hm-dianping</name>
-    <description>Demo project for Spring Boot</description>
+    <groupId>com.tanwei</groupId>
+    <artifactId>tanwei</artifactId>
+    <version>1.0.0</version>
+    <name>tanwei</name>
+    <description>探味（TanWei）——本地生活服务平台：基于 Spring Boot + Redis 的高并发本地生活服务系统</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
